@@ -1,0 +1,173 @@
+body{
+    background-color:#f4f4f4;
+    color:#555555;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight:normal;
+    /*same as above*/
+    font: normal 16px Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: green;
+}
+
+a:visited{
+    color: violet;
+}
+
+.clr{
+    clear: both;
+}
+
+.button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+
+.button:hover{
+    background: red;
+    color: white;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.box-1{
+    background-color: #333;
+    color: #fff;
+
+    border-right:5px red solid;
+    border-left: 5px red solid;
+    border-bottom: 5px red solid;
+    border-top: 5px red solid;
+    /*same as above*/
+    border: 5px red solid;
+    border-width: 5px;
+    border-style: dotted;
+
+    padding: 20px;
+
+    margin: 20px;
+}
+
+.box-1 h1{
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+
+}
+
+.box-2{
+    border: 3px dotted #ccc;
+    padding: 20px;
+    margin: 20px 0px;
+
+}
+
+.categories{
+    border: 1px #ccc solid;
+    padding-inline-start: 10px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0px;
+    padding-left: 20px;
+    list-style: square;
+    list-style:none;
+}
+
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: dotted 1px #333;
+    list-style-image: url('../images/check.jfif');
+}
+
+.form1{
+    padding: 20px;
+}
+
+.form1 .form-group{
+    padding-bottom: 16px;
+}
+
+.form1 label{
+    display: block;
+}
+
+.form1 input[type="text"], .form1 textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.block{
+    float:left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-block{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.positionbox{
+    width: 800px;
+    height: 500px;
+    border: 2px solid #000;
+    margin-top: 30px;
+    position: relative;
+    background-image: url('../images/check.jfif');
+    background-repeat: no-repeat;
+    background-position: 100px 200px;
+}
+
+.mylist li:first-child{
+    background: red;
+}
+
+.mylist li:last-child{
+    background: blue;
+}
+
+.mylist li:nth-child(even){
+    background: yellow;
+}
